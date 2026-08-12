@@ -757,3 +757,13 @@ ul, ol {
     font-size: 0.8rem;
   }
 }
+
+.tg-float{
+  position:fixed; bottom:24px; right:24px; z-index:500;
+  width:56px; height:56px; border-radius:50%;
+  background:#2AABEE; color:#ffffff;
+  display:flex; align-items:center; justify-content:center;
+  box-shadow:0 4px 16px rgba(0,0,0,0.35);
+  transition:transform 0.18s ease, box-shadow 0.18s ease;
+}
+.tg-float:hover{ transform:translateY(-3px) scale(1.06); box-shadow:0 8px 24px rgba(0,0,0,0.45); }

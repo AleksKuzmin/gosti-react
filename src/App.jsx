@@ -6,6 +6,7 @@ import Repertoire from './components/Repertoire.jsx'
 import Gallery from './components/Gallery.jsx'
 import Booking from './components/Booking.jsx'
 import Footer from './components/Footer.jsx'
+import TelegramFloat from './components/TelegramFloat.jsx'
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
         <Booking />
       </main>
       <Footer />
+      <TelegramFloat />
     </>
   )
 }
