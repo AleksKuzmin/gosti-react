@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 // Custom domain via public/CNAME — always served from root
 export default defineConfig({
   plugins: [react()],
-  base: '/',
+  base: '/gosti-react/',
   build: {
     outDir: 'dist',
   },
